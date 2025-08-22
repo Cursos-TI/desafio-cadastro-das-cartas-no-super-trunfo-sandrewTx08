@@ -44,8 +44,6 @@ int main()
     scanf("%f", &pib1);
     printf("Carta 1 - Pontos turísticos: ");
     scanf("%d", &pontosTuristicos1);
-    printf("\n");
-
     densidade1 = populacao1 / area1;
     pibPerCapita1 = (pib1 * BILHAO) / populacao1;
 
